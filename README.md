@@ -1,1 +1,1 @@
-# workshop-weather-app
+# weather-app-linkoping
