@@ -1,4 +1,4 @@
-import { MOCK_WEATHER } from './mock_weather.js';
+/*import { MOCK_WEATHER } from './mock_weather.js';
 import { createCordinatesURL, createTemperatureURL } from "./url.js";
 
 
@@ -114,7 +114,7 @@ checkbox.addEventListener('change', () => {
 
 
 // TEMPERATURE UNIT CONVERT (c/f)
-
+/*
 
 function convertTemperature(temperature) {
   // Skapar en funktion som konverterar temperatur mellan Celsius och Fahrenheit
@@ -128,5 +128,5 @@ function convertTemperature(temperature) {
     // Om checkboxen inte är markerad (inputen är i Celsius)
     return Math.round((temperature * (9 / 5) + 32) * 10) / 10; // Konvertera från Celsius till Fahrenheit och runda till en decimal // Formeln: C * 9/5 + 32
   }
-}
+}*/
 
