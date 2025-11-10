@@ -45,7 +45,7 @@ function returnDisplayText(data, city) {
 
   return `<p>Idag klockan ${data.updated} i ${city} är det ${data.description} med en temperatur på <span id="display-temp">${temp}</span> <span id="display-unit">${unit}</span> grader.</p>`
 }
-
+ 
 
 // Function to modify Boxes
 function addBoxData(data, city) {
