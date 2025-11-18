@@ -1,10 +1,10 @@
-
+import { MOCK_WEATHER } from './mock_weather.js';
 
 const searchField = document.getElementById('search-field');
 const searchBtn = document.getElementById('search-button');
 
 const displayText = document.getElementById('display-text');
-
+//const toggleText = document.getElementById("toggle-scale"); // <p id="toggle-scale">Celsius</p>//
 
 // LYSSNARE Searchfield = key down & click
 searchField.addEventListener('keydown', (event) => {
@@ -87,6 +87,11 @@ function addBoxData(data, city) {
 
 // Toggle temp
 const checkbox = document.getElementById("unitSwitch"); // Hämtar checkbox-elementet från HTML med id "unitSwitch"
+
+
+
+
+
 
 /*
 
